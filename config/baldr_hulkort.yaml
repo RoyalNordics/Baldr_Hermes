@@ -1,0 +1,5 @@
+test_task:
+  description: "A simple test task for Hermes."
+  steps:
+    - action: "generate_text"
+      prompt: "Write a short poem about the beauty of nature."

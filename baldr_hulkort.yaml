@@ -1,0 +1,14 @@
+build_title: Baldr Bootstrapping v1
+defined_by: Baldr (init prototype)
+version: 0.1
+
+build_rules:
+  compatibility:
+    - Components must declare outputs
+    - All outputs must be markdown or Python
+  modularity:
+    - Every file must be independently usable
+    - Explicit input/output only – no globals
+  behavior:
+    - Always explain what is done
+    - Never assume undefined input

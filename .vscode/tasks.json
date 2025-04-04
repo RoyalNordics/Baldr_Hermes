@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Hermes",
+        "type": "shell",
+        "command": "${workspaceFolder}/.venv/bin/python",
+        "args": [
+          "${workspaceFolder}/run_test.py"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
